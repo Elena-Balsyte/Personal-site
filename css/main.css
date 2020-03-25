@@ -1,0 +1,245 @@
+/****************************** BASE STYLES ***********************************/
+body {
+    color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#about, #work, #contacts {
+    height: 700px;
+}
+
+
+/******************************* GRID ***************************************/
+
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+
+/********************************* HEADER ********************************/
+
+
+header {
+    background: url('../img/roman-bozhko-PypjzKTUqLo-unsplash.jpg');
+    background-size: cover;
+    height: 800px;
+}
+
+
+nav {
+    float: left;
+    padding-top: 75px;
+}
+
+
+nav ul li{
+    display: inline-block;
+}
+
+
+nav ul li a {
+    color: crimson;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 80px;
+
+}
+
+
+header h2 {
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 1000px;
+}
+
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+
+/************************** ABOUT **********************************/
+#about {
+  background-color: #fff4cf;
+}
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+
+#about h2 {
+  color: #2b2b2b;
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-left: 40px;
+}
+
+
+#about p {
+  color: #7f7f7f;
+  font-size: 21px;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/************************ WORK ***************************************/
+
+#attitude {
+  padding: 80px 0;
+  height: 700px;
+  background: url('../img/aaron-burden-6jYoil2GhVk-unsplash.jpg');
+  background-size: cover;
+  clear:both;
+}
+
+#attitude .half-width {
+  float:right;
+}
+
+#attitude h2 {
+  color: #2b2b2b;
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-left: 40px;
+}
+
+#attitude h3 {
+  padding-left: 40px;
+  font-size: 28px;
+}
+
+#attitude p {
+color: black;
+font-size: 21px;
+line-height: 40px;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+#work {
+  background-color: #fffffd;
+  text-align: center;
+  clear: both;
+}
+
+#work .full-width {
+    padding: 115px 0
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0 auto;
+  width: 190px;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/********************************** CONTACTS *********************************/
+
+
+#contacts {
+  background-color: #fff4cf;
+  clear: both;
+}
+
+
+#contacts .full-width {
+    padding-top: 110px;
+}
+
+
+#contacts img#contacts-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+
+#contacts h2, #contacts p, #contacts #email-header, #contacts #socialmedia-header, #contacts ul {
+  padding-left: 115px;
+}
+
+
+#contacts #envelope {
+  padding: 0 10px 0 115px;
+}
+
+
+#contacts h2 {
+    font-family: 'Lora' serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+
+#contacts p {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+
+#contacts #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+
+#contacts a {
+    color: crimson;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+
+#contacts ul {
+    list-style: none;
+}
+
+
+#contacts ul li {
+     display: inline-block;
+}
+
+
+#contacts ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
