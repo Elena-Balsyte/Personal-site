@@ -1,11 +1,12 @@
 /****************************** BASE STYLES ***********************************/
 body {
+    width: 100%;
     color: #2b2b2b;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 
-#about, #work, #contacts {
+#about, #work {
     height: 700px;
 }
 
@@ -20,7 +21,7 @@ body {
 
 
 .half-width {
-  float: left;
+  float: right;
   width: 600px;
 }
 
@@ -35,7 +36,7 @@ body {
 
 
 header {
-    background: url('../img/roman-bozhko-PypjzKTUqLo-unsplash.jpg');
+    background: url('../img/michal-kubalczyk-WecngmAT-KY-unsplash.jpg');
     background-size: cover;
     height: 800px;
 }
@@ -53,7 +54,7 @@ nav ul li{
 
 
 nav ul li a {
-    color: crimson;
+    color: #fb0102;
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -81,7 +82,8 @@ header h2 span {
 
 /************************** ABOUT **********************************/
 #about {
-  background-color: #fff4cf;
+  background-color: #5b5d5e;
+  color: #fff;
 }
 
 #about .full-width {
@@ -90,7 +92,7 @@ header h2 span {
 
 
 #about h2 {
-  color: #2b2b2b;
+  color: darkred;
   font-family: 'Lora', serif;
   font-size: 36px;
   padding-left: 40px;
@@ -98,7 +100,7 @@ header h2 span {
 
 
 #about p {
-  color: #7f7f7f;
+  color: #fff;
   font-size: 21px;
   line-height: 40px;
   padding-left: 50px;
@@ -111,7 +113,7 @@ header h2 span {
 #attitude {
   padding: 80px 0;
   height: 700px;
-  background: url('../img/aaron-burden-6jYoil2GhVk-unsplash.jpg');
+  background: url('../img/kimberly-farmer-lUaaKCUANVI-unsplash.jpg');
   background-size: cover;
   clear:both;
 }
@@ -121,7 +123,7 @@ header h2 span {
 }
 
 #attitude h2 {
-  color: #2b2b2b;
+  color: darkred;
   font-family: 'Lora', serif;
   font-size: 36px;
   padding-left: 40px;
@@ -133,7 +135,7 @@ header h2 span {
 }
 
 #attitude p {
-color: black;
+color: #fff;
 font-size: 21px;
 line-height: 40px;
 padding-left: 50px;
@@ -141,7 +143,7 @@ padding-right: 50px;
 }
 
 #work {
-  background-color: #fffffd;
+  background-color: rgba(138, 139, 141, 0.2);
   text-align: center;
   clear: both;
 }
@@ -172,21 +174,19 @@ padding-right: 50px;
 
 
 #contacts {
-  background-color: #fff4cf;
+/***  background-color: #213140; ***/
+  background: url('../img/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg');
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  color: #fff;
   clear: both;
 }
 
-
-#contacts .full-width {
-    padding-top: 110px;
+div #contact-info {
+  float: left;
+  margin-top: 225px;
 }
-
-
-#contacts img#contacts-img {
-    border: 12px solid #ffffff;
-    margin-left: 25px;
-}
-
 
 #contacts h2, #contacts p, #contacts #email-header, #contacts #socialmedia-header, #contacts ul {
   padding-left: 115px;
@@ -222,7 +222,7 @@ padding-right: 50px;
 
 
 #contacts a {
-    color: crimson;
+    color: #f90003;
     font-weight: bold;
     font-size: 28px;
     text-decoration: none;
